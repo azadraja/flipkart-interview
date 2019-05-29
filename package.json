@@ -1,0 +1,23 @@
+{
+  "name": "flipkart-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azadraja/flipkart-interview.git"
+  },
+  "author": "Raja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azadraja/flipkart-interview/issues"
+  },
+  "homepage": "https://github.com/azadraja/flipkart-interview#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
