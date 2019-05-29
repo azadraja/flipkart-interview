@@ -1,4 +1,4 @@
-export function findMaxSubArray(arr) {
+const findMaxSubArray = function(arr) {
     var max_so_far = Number.NEGATIVE_INFINITY;
     var leftIndex = 0,
         rightIndex = arr.length - 1,
@@ -27,3 +27,5 @@ export function findMaxSubArray(arr) {
         final_max_sum_subArray: max_so_far
     };
 }
+
+module.exports = { findMaxSubArray };

@@ -1,4 +1,4 @@
-export function comp(a,b) {
+const comp = function(a,b) {
     if(!Array.isArray(a) || !Array.isArray(b) || !a.length || !b.length || a.length !== b.length)
       return;
     
@@ -8,3 +8,5 @@ export function comp(a,b) {
     
     return sorted_a.every((e,index) => sorted_b[index] === Math.pow(e,2));
   }
+
+module.exports = { comp };

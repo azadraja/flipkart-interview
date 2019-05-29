@@ -1,4 +1,4 @@
-export function sumofarray(arr) {
+const sumofarray = function(arr) {
     let sum = arr.reduce((acc, curr) => {
        if(typeof curr === 'string'){
          return acc + parseInt(curr);
@@ -7,4 +7,6 @@ export function sumofarray(arr) {
        }
     },0);
     return sum;
-  }
+  };
+
+module.exports = { sumofarray };
