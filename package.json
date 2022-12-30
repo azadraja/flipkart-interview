@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/azadraja/flipkart-interview#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   }
 }
